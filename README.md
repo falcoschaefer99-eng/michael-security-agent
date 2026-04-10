@@ -29,12 +29,11 @@ Michael is a security agent for [Claude Code](https://docs.anthropic.com/en/docs
 Every audit he runs makes the next one sharper. Michael carries 47 accumulated learnings from production security reviews — patterns no fresh scanner would know, because a fresh scanner hasn't seen your codebase before. He has. He remembers.
 
 <p align="center">
-  <img src="./assets/michael-deploy.gif" alt="Michael Adams — Assume compromise. Verify everything." width="350" />
+  <img src="./assets/michael-charactersheet.gif" alt="Michael Adams — Character Sheet" width="600" />
 </p>
 
 <p align="center">
-  <img src="./assets/michael-charactersheet.gif" alt="Michael Adams — Character Sheet" width="400" />
-  <img src="./assets/spec-sheet.gif" alt="Michael Adams — Capability Spec Sheet" width="400" />
+  <img src="./assets/spec-sheet.gif" alt="Michael Adams — Capability Spec Sheet" width="600" />
 </p>
 
 ## Proof of Work
