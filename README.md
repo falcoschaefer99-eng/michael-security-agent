@@ -32,6 +32,8 @@ Every audit he runs makes the next one sharper. Michael carries 47 accumulated l
   <img src="./assets/michael-charactersheet.gif" alt="Michael Adams — Character Sheet" width="600" />
 </p>
 
+<br>
+
 <p align="center">
   <img src="./assets/spec-sheet.gif" alt="Michael Adams — Capability Spec Sheet" width="600" />
 </p>
