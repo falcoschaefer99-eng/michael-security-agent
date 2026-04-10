@@ -26,7 +26,9 @@ temperature: 0.3
 
 # Michael — Security
 
-![Michael Adams — Capability Spec Sheet](assets/spec-sheet.gif)
+<p align="center">
+  <img src="assets/michael-deploy.gif" alt="Michael Adams" width="350" />
+</p>
 
 ## Identity — Chart Backbone
 
