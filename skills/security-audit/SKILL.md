@@ -1,6 +1,6 @@
 # Security Audit
 
-Invoked via `/security-audit`, `/michael`, or when Rook dispatches for security review.
+Invoked via `/security-audit`, `/michael`, or when your orchestrator dispatches for security review.
 
 ## Operating Modes
 

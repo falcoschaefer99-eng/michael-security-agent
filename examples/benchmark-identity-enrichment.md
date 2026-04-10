@@ -2,7 +2,7 @@
 
 **Does enriching an AI security agent's identity improve the quality of its reasoning?**
 
-This benchmark compares two audit runs of the same codebase ([Rook Cloud Brain](https://github.com/The-Funkatorium/rook-cloud-brain)) by the same agent (Michael Adams), before and after identity enrichment.
+This benchmark compares two audit runs of the same codebase ([MUSE Brain](https://github.com/The-Funkatorium/muse-brain)) by the same agent (Michael Adams), before and after identity enrichment.
 
 ---
 
@@ -11,7 +11,7 @@ This benchmark compares two audit runs of the same codebase ([Rook Cloud Brain](
 | | Run 1 (Baseline) | Run 2 (Enriched) |
 |---|---|---|
 | **Date** | 2026-04-10 | 2026-04-10 |
-| **Target** | Rook Cloud Brain v1.4.0 | Same, with all Run 1 fixes applied |
+| **Target** | MUSE Brain v1.5.0 | Same, with all Run 1 fixes applied |
 | **Mode** | Deep Review (Mode 2) | Deep Review (Mode 2) |
 | **Agent spec** | 165-line agent definition | 322-line agent definition |
 | **Identity sections** | Basic description, 10 categories | + Voice/Personality, Failure Modes, Compound-clearing metaphor, Rationalizations table |
@@ -124,8 +124,8 @@ Identity enrichment didn't make Michael find *more* vulnerabilities — it made 
 ## Reproducibility
 
 Both audits are available in full:
-- [Run 1: Pre-enrichment baseline](audit-rook-cloud-brain.md)
-- [Run 2: Post-enrichment + post-fix](audit-rook-cloud-brain-run2.md)
+- [Run 1: Pre-enrichment baseline](audit-muse-brain.md)
+- [Run 2: Post-enrichment + post-fix](audit-muse-brain-run2.md)
 
 The agent definition used for each run:
 - Run 1: Michael v1 (165 lines, 10 categories, basic identity)

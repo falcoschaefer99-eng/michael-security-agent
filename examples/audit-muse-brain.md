@@ -1,8 +1,8 @@
-# Example Audit: Rook Cloud Brain v1.4.0
+# Example Audit: MUSE Brain v1.5.0 — Run 1 (Baseline)
 
 **Real audit output from Michael's deep review of a production Cloudflare Workers application.**
 
-This is not a synthetic benchmark. This is Michael auditing the very memory system that makes him smarter — [Rook Cloud Brain](https://github.com/The-Funkatorium/rook-cloud-brain), a 44-file Cloudflare Workers application serving as persistent memory for AI agents.
+**A real production audit.** Michael auditing the very memory system that makes him smarter — [MUSE Brain](https://github.com/The-Funkatorium/muse-brain), a 44-file Cloudflare Workers application serving as persistent memory for AI agents.
 
 ---
 
@@ -148,7 +148,7 @@ This is not a synthetic benchmark. This is Michael auditing the very memory syst
 
 ```
 MEMORY:
-- [2026-04-10] Brain v1.4.0 audit: API key query param fallback puts secrets in CF analytics/logs. Auth credentials ONLY in headers, never URLs. **#auth #secrets-in-urls** (HIGH, 95 confidence)
+- [2026-04-10] Brain v1.5.0 audit: API key query param fallback puts secrets in CF analytics/logs. Auth credentials ONLY in headers, never URLs. **#auth #secrets-in-urls** (HIGH, 95 confidence)
 - [2026-04-10] BFS/chain functions need BOTH depth clamp AND total-node cap. trace() has fan-out limit but no visited-size cap and no depth clamp. **#graph-traversal #dos** (HIGH, 92 confidence)
 - [2026-04-10] CF Workers request.arrayBuffer() buffers entire body before size check. Pre-flight Content-Length check before arrayBuffer() prevents 99% of oversized payloads. **#cloudflare #input-validation** (HIGH, 90 confidence)
 - [2026-04-10] Single production dependency (postgres.js) is the gold standard for supply chain. 44 source files, 1 runtime dep. Proves large systems can run lean. **#supply-chain #architecture** (LOW, 95 confidence)

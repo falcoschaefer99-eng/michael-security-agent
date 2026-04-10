@@ -1,4 +1,4 @@
-# Example Audit: Rook Cloud Brain v1.4.0 — Run 2 (Post-Fix, Enriched Identity)
+# Example Audit: MUSE Brain v1.5.0 — Run 2 (Post-Fix, Enriched Identity)
 
 **Michael's second audit of the same codebase, after all 14 Run 1 findings were fixed and Michael's identity reasoning was enriched.**
 
